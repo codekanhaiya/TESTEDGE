@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTEDGE</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+<body>
+    
+    <div class="main row">
+        <div class="col-sm-6">
+            <img src="img/testg.gif" alt="TESTEDGE"/>
+        </div>
+        <div class="col-sm-6">
+            <h3><span class="first">A</span>dmin:</h3>
+
+            <div class="form" id="log">
+                <form action="post">
+                    <input type="text" name="username" id="username" placeholder="Username">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <input type="button" value="sign-in">
+                </form>
+                <p>New account ? <span class="lk" onclick="mysign();" >Click here...</span></p>
+            </div>
+            <div class="form" id="sign" >
+                <form action="post">
+                    <input type="text" name="Name" id="name" placeholder="Name">
+                    <input type="email" name="email" id="email" placeholder="Email-ID">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <input type="button" value="sign-up">
+                </form>
+                <p>Already have an account ? <span class="lk" onclick="mylog();" >Click here...</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
