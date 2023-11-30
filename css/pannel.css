@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Josefin+Sans:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+nav{
+    border-bottom: 1px solid gainsboro;
+    padding: 0 20px;
+}
+nav .row .col-sm-6{
+    display: flex;
+    align-items: center;
+}
+.icon img{
+    width: 75px;
+}
+
+.menu{
+    justify-content: right;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    margin: 5px;
+}
+.menu ul li:hover{
+    cursor: pointer;
+}
+
+.content{
+    justify-content: center;
+    /* background-color: cadetblue; */
+    height:25px;
+}
+
+.content ul{
+    display: flex;
+    list-style: none;
+}
+
+.content ul li{
+    padding: 0 10px;
+}
+.content ul li:hover{
+    cursor: pointer;
+    border-bottom: 3px solid blueviolet;
+}
+
+#Questions{
+    display: flex;
+}
+#Responses, #Settings{
+    display: none;
+}
+
+/* Questions design */
+
+.panmain{
+    text-align: center;
+    width: 95vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    /* background-color: cadetblue; */
+}
+
+/* for js */
+.paragraph{ 
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.paragraph:focus{
+    border-bottom: 1px solid gainsboro;
+}
+.filetype::file-selector-button{
+    display: none;
+}
+.RCdesign{
+    width: 50%;
+}
+.opID{
+    display: block;
+}
+/* for js */
+
+.ist, .iind{
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+/* .ist{
+    align-items: center;
+    margin-top: 10px;
+    height: max-content;
+}
+
+.ist p{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+.ist ul{
+    list-style: none;
+}
+
+.ist li{
+    border: 1px solid gainsboro;
+    margin: 2px;
+    border-radius: 2px;
+}
+
+.ist ul li:hover{
+    cursor: pointer;
+    color: black;
+} */
+
+header{
+    border-top:5px solid blueviolet ;
+    border-radius: 5px;
+    padding: 5px;
+    border-bottom: 5px solid blueviolet;
+}
+.title,.discrt{
+    background-color: ghostwhite;
+    padding: 5px;
+    text-align: left;
+}
+#title, #discrt{
+    width: 100%;
+    outline: none;
+    border: none;
+}
+#title{
+    height: 50px;
+    font-size: 40px;
+}
+#title:focus, #discrt:focus{
+    border-bottom: 2px solid gainsboro;
+}
+
+
+/* section design  */
+section{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: left;
+}
+section:hover{
+    border: 1px solid gray;
+    border-left: 5px solid blueviolet;
+}
+
+section input{
+    outline: none;
+    border: none;
+    width: 100%;
+}
+section input:focus{
+    border-bottom: 1px solid gainsboro ;
+}
+
+.tls{
+    justify-content: space-evenly;
+}
+
+
+
+/* Responses design  */
+
+
+/* Settings design  */

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Josefin+Sans:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.main{
+    /* background-color: chartreuse; */
+    align-items: center;
+    text-align: center;
+    width: 95vw;
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+}
+
+.main img{
+    height: 260px;
+    animation: rotation 2s infinite cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes rotation {
+    from {
+        transform: rotatey(0deg);
+    }
+
+    to {
+        transform: rotatey(359deg);
+    }
+}
+
+.first{
+    font-family: 'Clicker Script',sans-serif;
+    font-size: 5rem;
+    color: blueviolet;
+}
+
+
+.form{
+    /* background-color: pink; */
+    padding: 20px;
+    /* background: linear-gradient(pink,white,yellow); */
+    border: 2px solid gainsboro;
+    border-radius: 3px;
+}
+
+#sign{
+    display: none;
+}
+#log{
+    display: block;
+}
+
+.form input{
+    display: block;
+    border: none;
+    margin: 10px;
+    width: 100%;
+    background-color: transparent;
+    border-bottom:1px solid gainsboro ;
+    outline: none;
+}
+
+.form input[type="button"]{
+    margin-top: 20px;
+    background-color: blueviolet;
+    color: white;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.form input[type="button"]:hover{
+    background-color: gray;
+    border: none;
+}
+
+p{
+    text-align: right;
+}
+
+.lk{
+    color: gainsboro;
+    cursor:progress;
+}
+.lk:hover{
+    color: gray;
+    text-decoration: underline;
+}
